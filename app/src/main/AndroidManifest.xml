@@ -8,7 +8,7 @@
         android:allowBackup="true"
         android:label="EuclidOS Updates"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EuclidOTA"
+        android:theme="@style/Theme.EuclidOTA">
         
         <activity
             android:name=".MainActivity"
@@ -20,3 +20,4 @@
         </activity>
     </application>
 </manifest>
+
