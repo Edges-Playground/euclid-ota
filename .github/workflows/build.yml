@@ -26,7 +26,6 @@ jobs:
     - name: Grant Execute Permission for Gradlew
       run: chmod +x ./gradlew
 
-    # Compile the debug variant file asset 
     - name: Build with Gradle
       run: ./gradlew assembleDebug
 
